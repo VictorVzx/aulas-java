@@ -45,12 +45,15 @@ class Celular {
     int espacoArmazenamento;
     float tamanhoTela;
 
+    Pessoa pessoa = new Pessoa();
+    String identificacao = pessoa.setNome("Pedro");
+
     void ligarCelular() {
         System.out.format("O celular %s foi ligado!\n", nome);
     }
 
-    void fazerLigacao(String pessoaNome) {
-        System.out.format("%s fez uma ligação com o %s\n", pessoaNome, nome);
+    void fazerLigacao() {
+        System.out.format("%s fez uma ligação com o %s\n", identificacao, nome);
     }
 }
 
@@ -64,6 +67,18 @@ class Notebook {
 
 
 class Pessoa {
-    String nome;
+    private String nome;
+    private int idade;
 
+    public Pessoa() {
+
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 }
