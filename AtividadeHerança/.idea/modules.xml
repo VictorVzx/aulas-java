@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AtividadeHerança.iml" filepath="$PROJECT_DIR$/.idea/AtividadeHerança.iml" />
+      <module fileurl="file://$PROJECT_DIR$/herancaativiadade/herancaativiadade.iml" filepath="$PROJECT_DIR$/herancaativiadade/herancaativiadade.iml" />
+    </modules>
+  </component>
+</project>
