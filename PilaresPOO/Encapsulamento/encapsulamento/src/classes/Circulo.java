@@ -1,6 +1,6 @@
 package classes;
 
-public class Circulo {
+public class Circulo implements FiguraGeometrica{
 
     //Atributos
     private int raio;

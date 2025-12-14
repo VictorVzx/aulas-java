@@ -34,7 +34,7 @@ public class Main {
         System.out.format("Celular %s com %dGB de armazenamento, sistema operacional %s e tela de %.2f polegadas.\n", celular3.nome, celular3.espacoArmazenamento, celular3.sistemaOperacional, celular3.tamanhoTela);
 
         celular2.ligarCelular();
-        celular2.fazerLigacao("Carlos");
+        celular2.fazerLigacao();
 
     }
 }
@@ -45,7 +45,7 @@ class Celular {
     int espacoArmazenamento;
     float tamanhoTela;
 
-    Pessoa pessoa = new Pessoa();
+    Pessoa pessoa = new Pessoa("pedero", 2);
     String identificacao = pessoa.setNome("Pedro");
 
     void ligarCelular() {
@@ -70,15 +70,17 @@ class Pessoa {
     private String nome;
     private int idade;
 
-    public Pessoa() {
-
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public String setNome(String nome) {
         this.nome = nome;
+        return nome;
     }
 }

@@ -1,13 +1,12 @@
+import classes.CalculadorArea;
 import classes.Circulo;
 import classes.Quadrado;
 
 public class Main {
     public static void main (String[] args){
-        Circulo circuloPequeno = new Circulo(2);
-        double area = circuloPequeno.calcularArea();
-        System.out.println(area);
-
+        Circulo circulo = new Circulo(2);
         Quadrado quadrado = new Quadrado(5);
-        System.out.println(quadrado.gerarArea());
+        CalculadorArea calculador = new CalculadorArea();
+
     }
 }
