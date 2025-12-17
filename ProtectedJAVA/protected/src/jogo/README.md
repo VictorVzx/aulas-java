@@ -1,0 +1,1 @@
+o protected faz com que só seja possivel declarar um metodo numa classe que herda desse metodo

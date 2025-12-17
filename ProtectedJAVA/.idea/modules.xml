@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ProtectedJAVA.iml" filepath="$PROJECT_DIR$/.idea/ProtectedJAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protected/protected.iml" filepath="$PROJECT_DIR$/protected/protected.iml" />
     </modules>
   </component>
 </project>
